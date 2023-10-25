@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@1,100&display=swap');
+#imgPortada {
+    width: 228vh;
+    height: 91vh;
+}
+
+/* Estilos para dispositivos de escritorio (ancho de pantalla mayor o igual a 1024px) */
+@media (min-width: 1024px) {
+    #imgPortada {
+        width:  228vh;
+        height: 95vh;
+    }
+}
+
+/* Estilos para tabletas (ancho de pantalla entre 768px y 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    #imgPortada {
+        width: 114;
+        height: 50;
+    }
+}
+
+/* Estilos para dispositivos móviles (ancho de pantalla menor a 768px) */
+@media (max-width: 767px) {
+    #imgPortada {
+        width: 65vh;
+        height: 50vh;
+    }
+}
+.titulo{
+    font-family: 'Chivo Mono', monospace;
+    font-size: 1.5em;
+}
+
+
+
+
+
